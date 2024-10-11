@@ -41,6 +41,7 @@ h2  {
     width: 50%; /* Set to 100% of the container width */
     max-width: 300px; /* Limit the max width */
     height: auto; /* Maintain aspect ratio */
+    margin-top: 30px;
 }
 
 .menu-container {
