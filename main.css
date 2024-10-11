@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: flex;
+}
+
+body {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;  /* Centrerar horisontellt */
+    align-items: center;      /* Centrerar vertikalt */
+    flex-direction: column;   /* Gör så att elementen staplas vertikalt */
+    min-height: 100vh;        /* Täcker hela höjden av viewporten */
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Mörk bakgrund */
+    color: hwb(96 76% 0%);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h3  {
+    color: #94dd26;
+}
+
+h2  {
+    color: #467a4a;
+}
+
+.head {
+    width: 100%; /* Set to 100% of the container width */
+    max-width: 1000px; /* Limit the max width */
+    height: auto; /* Maintain aspect ratio */
+}
+.Meny {
+    width: 50%; /* Set to 100% of the container width */
+    max-width: 300px; /* Limit the max width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.menu-container {
+    display: flex;           /* Gör att sektionerna placeras bredvid varandra */
+    justify-content: space-between; /* Skapar mellanrum mellan sektionerna */
+    padding: 20px;           /* Valfri padding för att skapa utrymme runt sektionerna */
+}
+
+.nav {
+    flex: 1;                 /* Gör att sektionerna tar upp lika mycket utrymme */
+    margin: 0 10px;          /* Valfri marginal mellan sektionerna */
+}
+
+ul {
+    list-style-type: none;   /* Tar bort standard-listmarkeringarna */
+    padding-left: 0;
+}
+
+ul li::before {
+    content: '\e838'; /* Unicode för star ikonen */
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;    /* Ändra storleken till 24px */
+    color: hwb(96 76% 0%);;     /* Färgen på ikonen */
+    margin-right: 8px;  /* Skapa lite utrymme mellan ikonen och texten */
+    vertical-align: middle; /* Justerar ikonen med texten */
+}
+
+footer
+{
+    color: #94dd26;
+}
